@@ -1,0 +1,22 @@
+[
+  {
+    "name": "水電",
+    "icon": "fa-solid fa-house"
+  },
+  {
+    "name": "交通",
+    "icon": "fa-solid fa-van-shuttle"
+  },
+  {
+    "name": "娛樂",
+    "icon": "fa-solid fa-face-grin-beam"
+  },
+  {
+    "name": "飲食",
+    "icon": "fa-solid fa-utensils"
+  },
+  {
+    "name": "其他",
+    "icon": "fa-solid fa-pen"
+  }
+]

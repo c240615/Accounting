@@ -1,0 +1,32 @@
+[
+  {
+    "name": "午餐",
+    "date": "2024.11.01",
+    "amount": 100,
+    "category": "飲食"
+  },
+  {
+    "name": "晚餐",
+    "date": "2024.11.01",
+    "amount": 80,
+    "category": "飲食"
+  },
+  {
+    "name": "計程車費",
+    "date": "2024.11.01",
+    "amount": 120,
+    "category": "交通"
+  },
+  {
+    "name": "電影票",
+    "date": "2024.11.01",
+    "amount": 220,
+    "category": "娛樂"
+  },
+  {
+    "name": "水費",
+    "date": "2024.11.01",
+    "amount": 800,
+    "category": "水電"
+  }
+]
