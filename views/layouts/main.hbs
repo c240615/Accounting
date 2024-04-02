@@ -12,8 +12,30 @@
     <link rel="bookmark" href="" />
     <link rel="stylesheet" href="/stylesheets/bootstrap.css">
     <title>Accounting</title>
+    <script
+      src="{{fontawesome}}"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <nav class="navbar bg-body-tertiary navbar-expand-lg bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          {{#if isAuthenticated}}
+            {{user.name}}
+            的
+          {{/if}}
+          記帳本
+        </a>
+        <form class="d-flex" role="search">
+          {{#if isAuthenticated}}
+            <a class="btn btn-outline-danger" href="/users/logout">登出</a>
+          {{else}}
+            <a class="btn btn-outline-success" href="/users/login">登入</a>
+          {{/if}}
+        </form>
+      </div>
+    </nav>
     {{{ body }}}
     <script src="/javascripts/popper.js"></script>
     <script src="/javascripts/bootstrap.js"></script>
