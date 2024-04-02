@@ -3,7 +3,7 @@
 ## 介紹
 
 這是一個可以註冊登入帳號，管理支出的記事本
-![image](https://github.com/c240615/Accounting/edit/main/public/images/index.png)
+![image](https://github.com/c240615/Accounting/blob/main/public/img/index.png)
 
 ## 功能
 
